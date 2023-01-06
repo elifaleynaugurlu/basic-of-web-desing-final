@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.örnek{
+    background-color: blue;
+    border-radius: 20px;
+    position: sticky;
+    top: 25px; ;
+    height: 100px;
+    padding: 10px;
+
+}
+.örnek a{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

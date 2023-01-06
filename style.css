@@ -1,0 +1,336 @@
+body{
+            background: #131313;
+            color: #525252;
+            font-family: verdana,Arial,Helvetica,sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+        }
+        .sayfa{
+            width: 960px;
+            margin: auto;
+        }
+        .ust{
+            background: #232323;
+        }
+        #logo{
+            float: left;
+            width: 260px;
+            margin-top: 7px;
+            margin-left: 10px;
+        }
+        
+        #logo h1{
+            margin: 0;
+            padding: 0;
+            font-size: 42px;
+            text-transform: uppercase;
+            
+        }
+        
+        #logo h1 a{
+            font-family: Georgia;
+            text-decoration: none;
+            color: #DBDBDB;
+            letter-spacing: 3px;
+        }
+        
+        #logo p{
+            color: #DBDBDB;
+            font-family: Georgia;
+            margin-left: 3px;
+            margin-top: 0;
+            padding-top: 0;
+            letter-spacing: 2px;
+        }
+        
+        #menu{
+            float: right;
+            width: 650px;
+            margin: 30px 0 0 0;
+            padding: 0;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+        #menu ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        #menu ul li{
+            display: inline;
+            margin-right: 35px;
+        }
+        
+        #menu ul li a{
+            text-decoration: none;
+            font-size: 13px;
+            font-family: Verdana;
+            color: #DBDBDB;
+        }
+        
+        .orta{
+            
+            margin-top: 20px;
+            
+        }
+       .orta-sol img{
+        height: 400px;
+        width: 575px;
+           
+            float: left;
+        }
+        .orta-sag{
+            width: 360px;
+            float: right;
+            height: 400px;
+            background: #FDC609;
+            padding: 10px;
+        }
+        
+        .orta-sag img{
+            box-shadow: 5px 5px 5px gray;
+        }
+        
+        .orta-resim{
+            margin: 0 25px;
+            
+        }
+        .card
+        {
+            width: 500px;
+            float: left;
+        }
+        /*.orta-card{
+            margin :0 30px;
+        }*/
+        
+        .card{
+            margin-right: 30px;
+        }
+        
+        .card:nth-child(3){
+            margin:0px;
+        }
+      
+        .card h1{
+            border-bottom: 1px dotted white;
+            padding-bottom: 15px;
+            
+        }
+        
+        .button a{
+            display: inline-block;
+            padding: 10px 15px;
+            color: #fdc609;
+            background-color: #232323;
+            text-decoration: none;
+            
+        }
+        
+        .clear{
+            clear: both;
+        }
+
+
+
+
+
+
+        *{
+            box-sizing: border-box;
+        }
+ 
+        html{
+            font-size:62.5%;/*1rem = 10px*/
+        }
+ 
+        body,h1,h2,ul{
+            margin:0;
+            padding:0;
+            
+        }
+        ul{
+            list-style: none;
+        }
+        .orta .bolum1 img{
+            display: block;
+            width: 100px;
+        }
+ 
+        .orta .bolum2{
+            margin-top:20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .orta .bolum2 .kutu{
+            flex-basis: 290px;
+        }
+ 
+        .orta .bolum2 .kutu h2{
+            font-size: 2rem;
+        }
+ 
+        .orta .bolum2 .kutu p{
+            font-size: 1.6rem;
+        }
+ 
+        .orta .bolum3{
+            display: flex;
+            justify-content: space-between;
+            gap:20px;
+        }
+ 
+        .orta .bolum3 h1{
+            font-size:2.5rem;
+        }
+ 
+        .orta .bolum3 p{
+            font-size:1.6rem;
+        } .orta .bolum1 img{
+            display: block;
+            width: 1000px;
+            height: 300px;
+        }
+ 
+        .orta .bolum2{
+            margin-top:20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .orta .bolum2 .kutu{
+            flex-basis: 290px;
+        }
+ 
+        .orta .bolum2 .kutu h2{
+            font-size: 2rem;
+        }
+ 
+        .orta .bolum2 .kutu p{
+            font-size: 1.6rem;
+        }
+ 
+        .orta .bolum3{
+            display: flex;
+            justify-content: space-between;
+            gap:20px;
+        }
+ 
+        .orta .bolum3 h1{
+            font-size:2.5rem;
+        }
+ 
+        .orta .bolum3 p{
+            font-size:1.6rem;
+        }
+
+        .kutu a{
+            text-align:Justify;
+            color: white;
+              font-size: large;
+              text-decoration: none;
+        }
+
+
+        .icerik a{
+
+            text-align:Justify;
+            color: white;
+              font-size: large;
+              text-decoration: none;
+        }
+  
+
+        .kutu img {
+        width: 300px;
+        height: 110px;
+         }
+
+        .gorsel img {
+        width: 300px;
+        height: 150px;
+       }
+
+     
+
+      
+
+
+
+
+
+
+       body,h1,ul,li,p{
+        margin: 0;
+        padding: 0;
+    }
+    #bir{
+        width: 1000px;
+        margin: 10px auto;
+        background: #978F8F;
+    }
+    #ust{
+        width: 1000px;
+        height: 150px;
+        
+    }
+    #baslik{
+        float: left;
+        margin-left: 30px;
+        margin-top: 45px;
+        font-size: 1.2em;
+        color: black;
+        text-decoration: none;
+    }
+     
+  
+     
+    
+     
+    #baslik{
+        width: 780px;
+        margin: 5px 0px 0px 0px;
+        float: left;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: justify;
+        background: #EBE4E4;
+    }
+     
+    #orta-sagg{
+        width: 200px;
+        margin-top: 5px;
+        margin-left:5px;
+        float: left;
+    }
+    #orta-sagg h3{
+        margin: 0px auto;
+        text-align: center;
+        color: azure;
+        font-size: 1.4em;
+    }
+    #liste-12{
+        list-style: none;
+        padding-left: 20px;
+        padding-top: 30px;
+        
+    }
+     
+    #liste-12 li{
+        padding-top: 10px;
+    }
+    #liste-12 li a{
+            
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 1.2em;
+    }
+     
+    
+    .temizle{
+        clear: both;
+    }
+
+
